@@ -131,11 +131,11 @@ class InitWindows(object):
                                               f"{result[-1].decode('utf-8')}\n"
                                               "打开答案文件吗？"
                                       ):
-                os.system("explorer.exe .\\docs\\Grade.txt")
+                os.system("open /Users/rebecca/Collaborator/docs/Grade.txt")
 
     @staticmethod
     def open_explorer():
-        os.system("explorer.exe .\\docs")
+        os.system("open /Users/rebecca/Collaborator/docs")
 
     @staticmethod
     def thread_event(func):
